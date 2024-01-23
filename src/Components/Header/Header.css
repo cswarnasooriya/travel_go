@@ -122,6 +122,9 @@
     cursor: pointer;
     color: var(--primaryColor);
   }
+  .navbar .toggleIcon {
+    margin-right: 12px;
+  }
 }
 .navbar .showMenu {
   top: 7rem;

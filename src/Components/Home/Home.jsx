@@ -16,7 +16,7 @@ const Home = () => {
             <span className="redText">
                 Best Destinations Around The World!
             </span>
-            <h2>Travel, Enjoy and Live a new and full life...</h2>
+            <h2>Travel, Enjoy and Live A New And Full Life...</h2>
 
             <p>
                 Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listining. Park gate ssell they went hard for the season.

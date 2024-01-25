@@ -1,1 +1,93 @@
-/*# sourceMappingURL=Footer.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Poppins:wght@300;400;500;600;700&display=swap");
+:root {
+  --primaryColor: hsl(233,52%,19%);
+  --secColor: hsl(233, 16%, 44%);
+  --hoverColor: hsl(8,100%, 70%);
+  --blackColor: #707070;
+  --greyText: hsl(0,0%,75%);
+  --bgColor: hsl(0,0%,100%);
+  --shadowColor: hsla(0,0%,0%,0.314);
+  --gradient: linear-gradient(to bottom, hsl(16,100%, 71%), hsl(8, 100%, 70%));
+  --boxShadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  --biggestFontSize: 2.4rem;
+  --h1FontSize: 2.2rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: 0.938rem;
+  --smallFontSize: 0.813rem;
+  --smallestFontSize: 0.75rem ;
+}
+
+.footer {
+  padding: 4rem 1.5rem 1rem;
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  background: var(--gradient);
+  margin: auto;
+}
+.footer .secContainer {
+  align-items: flex-start;
+}
+.footer .secContainer .singleSection h2 {
+  font-size: var(--biggestFontSize);
+  color: var(--bgColor);
+  padding-bottom: 0.5rem;
+  font-weight: 800;
+}
+.footer .secContainer .singleSection h3 {
+  color: var(--primaryColor);
+  font-weight: 800;
+  font-size: var(--h3FontSize);
+}
+.footer .secContainer .singleSection p {
+  font-size: var(--smallFontSize);
+  color: var(--secColor);
+}
+.footer .secContainer .singleSection li {
+  display: block;
+  padding-top: 1rem;
+  font-weight: 400;
+  color: var(--secColor);
+  cursor: pointer;
+  opacity: 0.8;
+}
+.footer .secContainer .singleSection li:hover {
+  transform: translateX(5px);
+  font-weight: 500;
+  transition: 0.4s ease-in-out;
+  color: var(--primaryColor);
+  opacity: 0.9;
+}
+.footer .secContainer .singleSection .socials {
+  gap: 0.7rem;
+  padding: 1rem 0;
+  margin: auto;
+  justify-content: center;
+}
+.footer .secContainer .singleSection .socials .icon {
+  font-size: 27px;
+  color: var(--blackColor);
+}
+.footer .secContainer .singleSection .socials .icon:hover {
+  transform: translateY(-7px);
+  transition: 0.4s ease-in-out;
+  color: var(--primaryColor);
+}
+.footer .secContainer .singleSection .text {
+  font-size: var(--h3FontSize);
+  display: block;
+  margin-top: 0.3rem;
+  padding-bottom: 0.2rem;
+  font-weight: 500;
+  color: var(--secColor);
+}
+.footer .secContainer .singleSection .flex {
+  gap: 0.5rem;
+  margin: auto;
+  justify-content: center;
+}
+.footer .secContainer .singleSection .flex img {
+  width: 125px;
+  cursor: pointer;
+}/*# sourceMappingURL=Footer.css.map */

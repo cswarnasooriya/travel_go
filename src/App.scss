@@ -22,7 +22,7 @@
     //fonts any typography
 
     --biggestFontSize: 2.4rem;
-    --h1FontSize: 2.2rem;
+    --h1FontSize: 2rem;
     --h2FontSize: 1.25rem;
     --h3FontSize: 1rem;
     --normalFontSize: 0.938rem;
@@ -41,6 +41,10 @@
     display: grid;
     align-items: center;
     gap: 1.5rem;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 a{
     text-decoration: none;
@@ -93,7 +97,7 @@ img{
         color: var(--secColor);
         font-size: var(--h3FontSize);
         font-weight: 600;
-        letter-spacing: var(--h1FontSize);
+        letter-spacing: 0.6rem;
 
     }
 
@@ -107,3 +111,12 @@ img{
     }
 }
 
+
+//media queries
+@media screen and (min-width: 568px) {
+    .secContainer{
+        grid-template-columns: repeat(2, 1fr);
+    
+    }
+    
+}

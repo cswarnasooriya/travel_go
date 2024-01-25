@@ -31,10 +31,10 @@
 .navbar .logoDiv .logo {
   color: var(--primaryColor);
   font-weight: 900;
-  font-size: var(--h1 FontSize);
+  font-size: 1.7rem;
 }
 .navbar .toggleIcon .icon, .navbar .closeIcon .icon {
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 .navbar .toggleIcon .icon:hover, .navbar .closeIcon .icon:hover {
@@ -59,7 +59,7 @@
   }
   .navbar .menu .lists {
     flex-direction: column;
-    gap: 1rem;
+    gap: 0.5rem;
     width: 100%;
     text-align: center;
   }
@@ -86,15 +86,15 @@
   .navbar .menu .lists li:hover a {
     font-weight: 600;
   }
-  .navbar .btns {
+  .navbar .menu .btns {
     width: 100%;
     flex-direction: column;
     gap: 0.5rem;
   }
-  .navbar .btns .btn {
+  .navbar .menu .btns .btn {
     width: 100%;
   }
-  .navbar .btns .lang {
+  .navbar .menu .btns .lang {
     margin-top: 0.5rem;
     margin-bottom: 1rem;
     background: transparent;
@@ -102,7 +102,7 @@
     outline: none;
     color: var(--primaryColor);
   }
-  .navbar .closeIcon {
+  .navbar .menu .closeIcon {
     position: absolute;
     display: flex;
     align-items: center;
@@ -118,19 +118,136 @@
     width: 80%;
     transform: translateX(-50%);
   }
-  .navbar .closeIcon .icon {
+  .navbar .menu .closeIcon .icon {
     cursor: pointer;
     color: var(--primaryColor);
-  }
-  .navbar .toggleIcon {
-    margin-right: 12px;
   }
 }
 .navbar .showMenu {
   top: 7rem;
 }
-.navbar .activeHeader {
+
+.activeHeader {
   transition: all 0.4s ease-in-out;
   background: var(--gradient);
   box-shadow: var(--boxShadow);
+}
+
+@media screen and (min-width: 769px) {
+  .toggleIcon, .closeIcon {
+    display: none;
+  }
+  .navbar {
+    padding: auto;
+    display: flex;
+  }
+  .navbar .logoDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 1px;
+  }
+  .navbar .logoDiv .logobar h2 {
+    font-size: 22px;
+  }
+  .menu {
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+    background: transparent;
+  }
+  .menu .lists {
+    display: flex;
+    gap: 1rem;
+    outline: none;
+    padding: 1px;
+    margin: 5px;
+  }
+  .menu .lists li a {
+    color: black;
+    font-weight: 800;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .menu .btns {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+  .menu .btns .btn {
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 2px;
+    padding: 5px;
+    font-size: 15px;
+  }
+  .menu .btns .lang {
+    cursor: pointer;
+    border-radius: 7px;
+    font-weight: 600;
+    padding: 2px;
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .toggleIcon, .closeIcon {
+    display: none;
+  }
+  .navbar {
+    padding: auto;
+    display: flex;
+  }
+  .navbar .logoDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 100px;
+  }
+  .navbar .logoDiv .logobar h2 {
+    font-size: 35px;
+    color: var(--primaryColor);
+  }
+  .menu {
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    background: transparent;
+  }
+  .menu .lists {
+    display: flex;
+    gap: 5rem;
+    outline: none;
+    padding: 10px;
+    margin: 10px;
+  }
+  .menu .lists li a {
+    color: var(--primaryColor);
+    font-weight: 800;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .menu .lists li a:hover {
+    transform: translateY(5px);
+  }
+  .menu .btns {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .menu .btns .btn {
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 5px;
+    padding: 12px;
+    font-size: 18px;
+  }
+  .menu .btns .lang {
+    cursor: pointer;
+    border-radius: 7px;
+    font-weight: 600;
+    padding: 6px;
+    font-size: 15px;
+  }
 }/*# sourceMappingURL=Header.css.map */

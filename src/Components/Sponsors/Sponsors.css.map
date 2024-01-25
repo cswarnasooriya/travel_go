@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"Sponsors.css"}
+{"version":3,"sources":["Sponsors.scss","Sponsors.css"],"names":[],"mappings":"AAAQ,iLAAA;AAGR;EACI,gCAAA;EACA,8BAAA;EACA,8BAAA;EACA,qBAAA;EACA,yBAAA;EACA,yBAAA;EACA,kCAAA;EACA,4EAAA;EACA,wFAAA;EAIA,yBAAA;EACA,oBAAA;EACA,qBAAA;EACA,kBAAA;EACA,0BAAA;EACA,yBAAA;EACA,4BAAA;ACJJ;;ADSA;EACI,eAAA;ACNJ;ADOI;EACI,eAAA;EACA,SAAA;EACA,uBAAA;ACLR;ADOQ;EACI,YAAA;EACA,gBAAA;EACA,eAAA;EACA,YAAA;ACLZ;ADOY;EACI,gBAAA;ACLhB","file":"Sponsors.css"}
